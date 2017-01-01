@@ -1,1 +1,25 @@
+title: TalkerSource.com
+description: An archive of text-based chat server code from the early days of the Internet
 theme: jekyll-theme-hacker
+
+show_downloads: false
+
+defaults:
+  -
+    scope:
+      path: "" # all files
+      type: pages # possible: `pages, `posts`, `drafts`, "or any collection in your site"
+    values:
+      layout: default
+  -
+    scope:
+      path: "" # all files
+      type: codebases
+    values:
+      layout: codebase
+
+collections:
+  posts:
+    output: true
+  codebases:
+    output: true

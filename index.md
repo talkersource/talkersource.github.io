@@ -45,4 +45,12 @@ piece of the Internet social communities that started it all, before instant mes
 took over.  While we can archive the source code, we cannot recover the friendships that were lost as
 servers went offline, one by one.
 
+## Codebases
+
+<p>
+{% for cb in site.codebases %}
+<a href="{{cb.url}}">{{cb.title}}</a><br/>
+{% endfor %}
+</p>
+
 [tree]: talkertree.txt
