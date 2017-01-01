@@ -1,0 +1,129 @@
+From: n...@ogham.demon.co.uk
+Subject: Here we go again with the tree...
+Date: 1999/06/30
+Message-ID: <930762775.10250.0.nnrp-06.c2de0bc0@news.demon.co.uk>
+X-Deja-AN: 495671376
+X-NNTP-Posting-Host: ogham.demon.co.uk:194.222.11.192
+X-Trace: news.demon.co.uk 930762775 nnrp-06:10250 NO-IDENT ogham.demon.co.uk:194.222.11.192
+Newsgroups: alt.talkers,alt.talkers.programming
+X-Complaints-To: abuse@demon.net
+
+This is the last post for a while, if anyone has any more changes don't
+bother telling me for a few weeks cos I don't care! :)
+
+                            THE TALKER TREE
+                            ---------------
+
+  Unaxcess talker (86)        MUDs (78) / IRC (88)
+         :                            :
+         :     ....................................................
+         :     :                      :                  :         :
+         :     :                   LPMud (90)            :         :
+         :.....:                      |                  :         :
+               :                  Cat Chat (90)        OOT (96)    :
+               :                      :                 |          :
+               :               Cheeseplants House (91)  |       Jeamland (97)
+               :                      :                 |
+   NJRs talkserver project (92)   Elsewhere (92)       JOOT (97)
+               |           ^          |
+               |           :          |
+       ..... NUTS 1 (93)   :....... EWToo (92) ..........
+       :       |                      |                 :
+     KTserv    |                      |              Twocan (99)
+               |                      |
+        -------|                      |
+       |       |                      |
+  --Iforms   NUTS 2 (94)           Summink (94)
+ |             |                      |
+ |             |                      |--------------------------------
+ |             |                      |         |                      |
+ |           NUTS 3 (96)...      GRel (98)   Sensi-Summink (95?)   PG96 (95)
+ |             |          :                     |                      |
+Ncohafmuta(94) |     SouthWest (99)             |                      |
+               |                                |                      |
+               |                                |                      |
+               |                                |                      |
+     ----------|-------------------------        ----------------------
+    |          |          |     |        |             |           |
+ BOLTS (97) Amnuts 1..... |  Crypt (96)  |       Sensi-PG (96?) PGPlus (98)
+               |        : |              |
+            Amnuts 2    rNUTS        Talker OS (98)
+
+
+  | = Directly derived from.
+  : = Inspired by.
+
+Dates
+-----
+The dates in brackets are when the code was first released or first went online
+in the case of unreleased code. For different major version numbers this would
+be when version 1.0.0 or version 2.0.0 was released/went online.
+
+Authors
+-------
+This section includes authors of original code and those who modified someone
+elses. If these are incorrect or I've spelt someones name wrong please let me
+know.
+
+IRC                 - Jarkko Oikarinen
+Unaxcess            - Brandon Allbery
+Talkserv & NUTS     - Neil Robertson (Boltar)
+KTserv              - Karri Kalpio
+Iforms              - Vince Rohr (Deep)
+BOLTS               - Nathan Richards (Sunspot)
+Amnuts              - Andrew Collington
+Crypt               - Bryan McPhail, Scott McKenzie & Marty Greenwell
+Ncohafmuta          - Anthony Biacco (Cygnus)
+rNUTS               - Slugger & Engi
+SouthWest           - Scott Lloyd
+Talker OS           - William Price
+LPmud driver        - Lars Penj
+Cat Chat            - Chris Thompson
+Cheeseplants House  - Daniel Stephens
+EWToo               - Simon Marsh (Burble)
+Summink             - Neil Charley (Athanasius), Michael Simms (Grim)
+Sensi-Summink       - James Greenhalgh (Slaine)
+PG96                - Mike Bourdaa (traP), Chris Allegretta (astyanax),
+                      Hans Peterson (Nogard) & Valerie Kelley (vallie).
+GRel                - Michael Simms
+Sensi-PG            - J. Bradley Christian (Phypor)
+PG+                 - Richard Lawrence (Silver), J. Bradley Christian (Phypor)
+                      & Geoffrey Swift (Blimey)
+Twocan              - James Antill
+
+OOT, JOOT           - Dave Jarvis
+
+Jeamland            - Andy Fiddaman
+
+
+Primary FTP/Web sites
+---------------------
+IRC                 - ?
+Unaxcess            - ftp://ftp.digital.com/pub/usenet/comp.sources.unix/volume4/unaxcess/
+NUTS                - ftp://ftp.ccs.neu.edu/pub/mud/servers/misc/nuts
+KTserv              - http://talkers.moremagic.com/KTserv/
+Iforms              - http://204.57.196.12/~rohr/iforms/
+BOLTS               - Only available via email to nath...@zepa.net
+Amnuts              - http://www.talker.com/amnuts/
+Crypt               - http://www.tendril.force9.co.uk/crypt
+Ncohafmuta          - http://ncohafmuta.com/code/
+rNUTS               - http://rnuts.cybermac.net or email Engi or Slugger
+SouthWest           - http://www.talker.com/southwest
+Talker OS           - http://pageaz.net/~maddly/talkeros/
+
+LPmud driver        - So many variants now theres no 1 single site.
+Cat Chat            - ?
+Cheeseplants House  - ?
+EWToo               - ftp://ftp.ewtoo.org/pub/distrib/ewtoo
+Summink             - ftp://ftp.ewtoo.org/pub/distrib/summink
+Sensi-Summink       - http://www.sanger.ac.uk/~jg1/
+PG96                - http://astyanax.home.ml.org/download.html
+GRel                - ?
+Sensi-PG            - ftp://ftp.ewtoo.org/pub/distrib/sensi-pg
+PG+                 - http://pgplus.ewtoo.org/
+Twocan              - http://www.twocan.org/ - http://twocan.ewtoo.org/
+
+OOT, JOOT           - http://www.joot.com
+
+Jeamland            - http://www.twikki.demon.co.uk/jeamland/index.html
+
