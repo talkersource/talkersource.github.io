@@ -1,3 +1,3 @@
 ---
-title: EW-Too
+title: EWToo
 ---
