@@ -64,3 +64,8 @@ servers went offline, one by one.
 {% endfor %}
 {% endfor %}
 </div>
+
+<p style="font-size: 9pt;">
+  An earlier version of this site hosted source code in <a href="https://www.mercurial-scm.org/">Mercurial</a> repositories,
+  <a href="http://hg.talkersource.com/" title="Old talkersource.com Hg repositories">available here</a> while supplies last.
+</p>
