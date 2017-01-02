@@ -28,7 +28,15 @@
 
         <section id="attributes">
           <dl>
-          <dt>family</dt><dd>{{ page.family }}</dd>
+          {% if page.family %}
+            <dt>family</dt>
+            {% capture my_family_id %}/family/{{ page.family }}{% endcapture %}
+            {% for family in site.family %}
+              {% if family.id == my_family_id %}
+                <dd><a href="{{ family.url }}">{{ family.title }}</a></dd>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
           {% if page.parent %}
             <dt>derived from</dt>
             {% capture my_parent_id %}/codebases/{{ page.parent }}{% endcapture %}

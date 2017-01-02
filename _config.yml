@@ -17,9 +17,17 @@ defaults:
       type: codebases
     values:
       layout: codebase
+  -
+    scope:
+      path: "" # all files
+      type: family
+    values:
+      layout: family
 
 collections:
   posts:
     output: true
   codebases:
+    output: true
+  family:
     output: true
