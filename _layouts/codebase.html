@@ -59,15 +59,16 @@
         {{ content }}
       </section>
 
+      {% assign descendant_count = 0 %}
       {% for other in site.codebases %}
         {% if other.parent %}
           {% capture other_parent_id %}/codebases/{{other.parent}}{% endcapture %}
           {% if other_parent_id == page.id %}
-            <!-- {% increment descendant_count %} -->
+            {% assign descendant_count = descendant_count | plus: 1 %}
           {% endif %}
         {% endif %}
       {% endfor %}
-      {% if descendant_count >= 0 %}
+      {% if descendant_count > 0 %}
       <section id="descendants">
         <h4>Direct descendants</h4>
         {% for other in site.codebases %}
