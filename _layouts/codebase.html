@@ -16,17 +16,25 @@
         {% if page.author %}
           <p>developed by {{ page.author }}</p>
         {% endif %}
+        {% if page.github_url %}
         <section id="downloads">
-          {% if page.github_url %}
             <a href="{{ page.github_url }}/archive/master.zip" class="btn">Download as .zip</a>
             <a href="{{ page.github_url }}/archive/master.tar.gz" class="btn">Download as .tar.gz</a>
             <a href="{{ page.github_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-          {% endif %}
         </section>
+        {% endif %}
       </div>
     </header>
 
     <div class="container">
+      {% unless page.github_url %}
+      <section>
+        <h3>Oh no!</h3>
+        <small>We know this code existed long ago, but it's not in our archive.
+        If <strong>you</strong> have a copy, please <a href="https://github.com/talkersource/talkersource.github.io/issues">contact us</a>.</small>
+      </section>
+      {% endunless %}
+
       <section id="attributes">
         <dl>
         {% if page.family %}
