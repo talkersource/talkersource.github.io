@@ -1,9 +1,9 @@
 ---
-title: NUTS 3.x
+title: NUTS 2.x
 description: Neil's Unix Talk Server
 author: Neil Robertson
 website: http://www.ogham.demon.co.uk/nuts.html
-github_url: https://github.com/talkersource/nuts3
+github_url: https://github.com/talkersource/nuts2
 family: nuts
-parent: nuts-2
+parent: nuts1
 ---

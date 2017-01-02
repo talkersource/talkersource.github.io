@@ -12,4 +12,4 @@ original variant.
 
 [tree]: /talkertree.txt
 [nuts]: /family/nuts.html
-[nuts1]: /codebases/nuts-1.html
+[nuts1]: /codebases/nuts1.html
