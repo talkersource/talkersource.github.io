@@ -49,6 +49,7 @@ servers went offline, one by one.
 ## Talker Codebases by Family
 
 <style type="text/css">
+#codebase_index { padding-bottom: 1em; }
 #codebase_index > h3 { padding-top: 1em; }
 #codebase_index > h3:first-child { padding-top: 0; }
 #codebase_index > a { display: inline-block; margin-left: 2.5em; min-width: 6em; }
@@ -64,6 +65,19 @@ servers went offline, one by one.
 {% endfor %}
 {% endfor %}
 </div>
+
+-----
+
+### Looking for more?
+
+This archive project started too late to save them all.  But if you find a tarball of classic
+Talker or MUD source code on that backup tape, Zip drive, or floppy diskette, we want to
+archive it here!
+
+New submissions, or comments/requests from code authors already included here, can reach
+us by [opening an issue on GitHub][gh-issue].
+
+[gh-issue]: https://github.com/talkersource/talkersource.github.io/issues
 
 <p style="font-size: 9pt;">
   An earlier version of this site hosted source code in <a href="https://www.mercurial-scm.org/">Mercurial</a> repositories,
