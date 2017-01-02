@@ -1,7 +1,7 @@
 ---
 title: EWToo
 author: Simon Marsh
-website: http://everything2.com/title/EWToo
+#website: http://www.ewtoo.org/ (dead)
 family: ewtoo
 ---
 
