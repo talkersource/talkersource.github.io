@@ -1,8 +1,9 @@
 ---
 title: Mamnuts
-author: Mind Booster Noori
+author: Marcos Daniel Marado Torres (a/k/a Mind Booster Noori)
 website: http://mamnuts.blogspot.com/
+github_url: https://github.com/talkersource/mamnuts
 family: nuts
-parent: nuts3
-parent_version: 3.3.3
+parent: amnuts
+parent_version: unknown; CVS circa November 2005
 ---
