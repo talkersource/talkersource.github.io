@@ -37,19 +37,23 @@ instances disappear so does their customized source code.  By 2010, nearly all o
 sources for the most popular Talker code bases (forks) had disappeared, lost to <q>the great bit bucket
 in the sky</q>.
 
-## The TalkerSource.com goal
+## The TalkerSource.com Goal
 
 Our goal is to maintain an archive of as many Talker and MUD code bases as we can find, to preserve a
 piece of the Internet social communities that started it all, before instant messaging and social media
 took over.  While we can archive the source code, we cannot recover the friendships that were lost as
 servers went offline, one by one.
 
-## Codebases
+## Talker Codebases by Family
 
-<p>
+{% for family in site.family %}
+<h3><a href="{{family.url}}">{{ family.title }} family</a></h3>
 {% for cb in site.codebases %}
+{% capture cb_family_id %}/family/{{ cb.family }}{% endcapture %}
+{% if cb_family_id == family.id %}
 <a href="{{cb.url}}">{{cb.title}}</a><br/>
+{% endif %}
 {% endfor %}
-</p>
+{% endfor %}
 
 [tree]: talkertree.txt
