@@ -10,7 +10,7 @@ defaults:
       path: "" # all files
       type: pages # possible: `pages, `posts`, `drafts`, "or any collection in your site"
     values:
-      layout: default
+      layout: basic
   -
     scope:
       path: "" # all files
