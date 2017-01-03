@@ -50,4 +50,4 @@ IRC (Internet Relay Chat) is another text-based, real-time chat technology from 
 experience exists essentially unchanged on the Internet of today.  IRC networks facilitate chat, messaging,
 and even file transfers, but lack the theming that gave each Talker site a unique personality.
 
-[tree]: talkertree.txt
+[tree]: /talkertree.txt
