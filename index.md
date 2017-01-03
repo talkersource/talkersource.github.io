@@ -60,7 +60,7 @@ servers went offline, one by one.
   #codebase_index > a { display: inline-block; margin-left: 2.5em; min-width: 6em; }
 </style>
 <div id="codebase_index">
-{% assign codes_by_family = site.codebases | group_by: "family" %}
+{% assign codes_by_family = site.codebases | group_by: "family" | sort: "name" %}
 {% for family in codes_by_family %}{% assign fam = site.family | where: "family", family.name | first %}
   <h3><a href="{{fam.url}}">{{ fam.title }}</a> family</h3>
   {%for codebase in family.items %}<a href="{{codebase.url}}">{{codebase.title}}</a>{% endfor %}
