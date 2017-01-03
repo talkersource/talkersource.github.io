@@ -54,6 +54,13 @@
         {{ content }}
       </section>
 
+      {% if page.upstream_url %}
+      <section>
+        <h4>Upstream source</h4>
+        The author publishes an <a href="{{ page.upstream_url }}">independent repository</a>, which may contain
+        newer or different changes when compared to the contents of the TalkerSource.com archive.
+      </section>
+      {% endif %}
 
       {% assign descendants = site.codebases | where: "parent", page.key %}
       {% assign descendant_count = descendants | size %}

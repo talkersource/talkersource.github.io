@@ -3,6 +3,7 @@ key: ncohafmuta
 title: Ncohafmuta
 author: Anthony J. Biacco (Cygnus)
 github_url: https://github.com/talkersource/ncohafmuta
+upstream_url: https://github.com/abiacco/ncohafmuta
 family: other
 parent: iforms
 ---
@@ -39,9 +40,5 @@ making Ncohafmuta a unique if not original variant.
 1.4.x - stable<br/>
 1.5.x - development
 
-**NOTE:** The author maintains a separate [GitHub repository][upstream], which may contain
-newer or different changes when compared to this archive's repository.
-
 [tree]: /talkertree.txt
 [freecode]: http://freecode.com/projects/ncohafmuta
-[upstream]: https://github.com/abiacco/ncohafmuta
