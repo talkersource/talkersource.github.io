@@ -5,8 +5,12 @@ layout: root
 
 ## What are/were <q>talkers</q>?
 
-Talkers, as they were known, were text-based real-time chat servers that existed on the Internet
-during the <q>early days</q> of the public Internet.  This was a time when...
+{% assign talker_info = site.info | where: "key", "talker" | first %}
+{{ talker_info.excerpt }}
+
+[Read more...]({{ talker_info.url }})
+
+This was a time when...
 
 - _instant messaging_ (e.g. ICQ, AOL IM, etc.) did not exist
 - the most common Internet access was through work or a university
@@ -50,20 +54,16 @@ servers went offline, one by one.
 ## Talker Codebases by Family
 
 <style type="text/css">
-#codebase_index { padding-bottom: 1em; }
-#codebase_index > h3 { padding-top: 1em; }
-#codebase_index > h3:first-child { padding-top: 0; }
-#codebase_index > a { display: inline-block; margin-left: 2.5em; min-width: 6em; }
+  #codebase_index { padding-bottom: 1em; }
+  #codebase_index > h3 { padding-top: 1em; }
+  #codebase_index > h3:first-child { padding-top: 0; }
+  #codebase_index > a { display: inline-block; margin-left: 2.5em; min-width: 6em; }
 </style>
 <div id="codebase_index">
-{% for family in site.family %}
-<h3><a href="{{family.url}}">{{ family.title }}</a> family</h3>
-{% for cb in site.codebases %}
-{% capture cb_family_id %}/family/{{ cb.family }}{% endcapture %}
-{% if cb_family_id == family.id %}
-<a href="{{cb.url}}">{{cb.title}}</a>
-{% endif %}
-{% endfor %}
+{% assign codes_by_family = site.codebases | group_by: "family" %}
+{% for family in codes_by_family %}{% assign fam = site.family | where: "family", family.name | first %}
+  <h3><a href="{{fam.url}}">{{ fam.title }}</a> family</h3>
+  {%for codebase in family.items %}<a href="{{codebase.url}}">{{codebase.title}}</a>{% endfor %}
 {% endfor %}
 </div>
 
