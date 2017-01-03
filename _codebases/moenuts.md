@@ -1,4 +1,5 @@
 ---
+key: moenuts
 title: MoeNUTS
 author: Mike Irving (MoeSoft Developments)
 github_url: https://github.com/talkersource/moenuts

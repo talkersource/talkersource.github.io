@@ -23,13 +23,9 @@
 
       <section id="descendants">
         <h4>Codebases in this family</h4>
-        {% for code in site.codebases %}
-          {% if code.family %}
-            {% capture code_family_id %}/family/{{code.family}}{% endcapture %}
-            {% if code_family_id == page.id %}
-              <a href="{{ code.url }}">{{ code.title }}</a><br/>
-            {% endif %}
-          {% endif %}
+        {% assign family_codes = site.codebases | where: "family", page.family %}
+        {% for code in family_codes %}
+          <a href="{{ code.url }}">{{ code.title }}</a><br/>
         {% endfor %}
       </section>
 
@@ -49,4 +45,3 @@
     {% endif %}
   </body>
 </html>
-

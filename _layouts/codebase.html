@@ -13,9 +13,7 @@
       <div class="container">
         <h1>{{ page.title | default: 'Untitled' }}</h1>
         <h2>{{ page.description | default: '' }}</h2>
-        {% if page.author %}
-          <p>developed by {{ page.author }}</p>
-        {% endif %}
+        {% if page.author %}<p>developed by {{ page.author }}</p>{% endif %}
         {% if page.github_url %}
         <section id="downloads">
             <a href="{{ page.github_url }}/archive/master.zip" class="btn">Download as .zip</a>
@@ -38,22 +36,13 @@
       <section id="attributes">
         <dl>
         {% if page.family %}
-          <dt>family</dt>
-          {% capture my_family_id %}/family/{{ page.family }}{% endcapture %}
-          {% for family in site.family %}
-            {% if family.id == my_family_id %}
-              <dd><a href="{{ family.url }}">{{ family.title }}</a></dd>
-            {% endif %}
-          {% endfor %}
+          {% assign family = site.family | where: "family", page.family | first %}
+          <dt>family</dt><dd><a href="{{ family.url }}">{{ family.title }}</a></dd>
         {% endif %}
         {% if page.parent %}
+          {% assign parentcode = site.codebases | where: "key", page.parent | first %}
           <dt>derived from</dt>
-          {% capture my_parent_id %}/codebases/{{ page.parent }}{% endcapture %}
-          {% for other in site.codebases %}
-            {% if other.id == my_parent_id %}
-              <dd><a href="{{ other.url }}">{{ other.title }}</a> {% if page.parent_version %}(version {{ page.parent_version }}){% endif %}</dd>
-            {% endif %}
-          {% endfor %}
+          <dd><a href="{{ parentcode.url }}">{{ parentcode.title }}</a> {% if page.parent_version %}(version {{ page.parent_version }}){% endif %}</dd>
         {% endif %}
         {% if page.website %}
           <dt>website</dt><dd><a href="{{ page.website }}">{{ page.website }}</a></dd>
@@ -65,26 +54,13 @@
         {{ content }}
       </section>
 
-      {% assign descendant_count = 0 %}
-      {% for other in site.codebases %}
-        {% if other.parent %}
-          {% capture other_parent_id %}/codebases/{{other.parent}}{% endcapture %}
-          {% if other_parent_id == page.id %}
-            {% assign descendant_count = descendant_count | plus: 1 %}
-          {% endif %}
-        {% endif %}
-      {% endfor %}
+
+      {% assign descendants = site.codebases | where: "parent", page.key %}
+      {% assign descendant_count = descendants | size %}
       {% if descendant_count > 0 %}
       <section id="descendants">
         <h4>Direct descendants</h4>
-        {% for other in site.codebases %}
-          {% if other.parent %}
-            {% capture other_parent_id %}/codebases/{{other.parent}}{% endcapture %}
-            {% if other_parent_id == page.id %}
-              <a href="{{ other.url }}">{{ other.title }}</a><br/>
-            {% endif %}
-          {% endif %}
-        {% endfor %}
+        {% for other in descendants %}<a href="{{ other.url }}">{{ other.title }}</a><br/>{% endfor %}
       </section>
       {% endif %}
 
@@ -104,4 +80,3 @@
     {% endif %}
   </body>
 </html>
-

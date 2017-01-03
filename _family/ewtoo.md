@@ -1,5 +1,6 @@
 ---
 title: EW-too
+family: ewtoo
 ---
 
 This family of code all ultimately derived from Simon Marsh's work on the [EW-too codebase][ewtoo]

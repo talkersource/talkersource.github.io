@@ -1,4 +1,5 @@
 ---
+key: pgplus
 title: Playground Plus
 author: Silver
 family: ewtoo

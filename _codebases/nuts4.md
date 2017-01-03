@@ -1,4 +1,5 @@
 ---
+key: nuts4
 title: NUTS 4.x
 description: Neil's Unix Talk Server
 author: Neil Robertson

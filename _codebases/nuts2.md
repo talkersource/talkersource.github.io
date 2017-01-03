@@ -1,4 +1,5 @@
 ---
+key: nuts2
 title: NUTS 2.x
 description: Neil's Unix Talk Server
 author: Neil Robertson

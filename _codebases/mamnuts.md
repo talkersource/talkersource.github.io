@@ -1,4 +1,5 @@
 ---
+key: mamnuts
 title: Mamnuts
 author: Marcos Daniel Marado Torres (a/k/a Mind Booster Noori)
 website: http://mamnuts.blogspot.com/

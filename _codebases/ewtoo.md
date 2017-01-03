@@ -1,4 +1,5 @@
 ---
+key: ewtoo
 title: EW-too
 author: Simon Marsh
 #website: http://www.ewtoo.org/ (dead)

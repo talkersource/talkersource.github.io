@@ -1,4 +1,5 @@
 ---
+key: crypt
 title: CryptMCS
 description: The Crypt Multiline Chat System
 author: Bryan McPhail, Scott McKenzie & Marty Greenwell
