@@ -1,5 +1,6 @@
 ---
 title: TalkerSource.com
+layout: root
 ---
 
 ## What are/were <q>talkers</q>?

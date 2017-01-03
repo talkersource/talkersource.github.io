@@ -4,15 +4,15 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <title>{{ page.title | default: 'Untitled'}} &ndash; {{ site.title | default: site.github.repository_name }}</title>
+    <title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>
   </head>
 
   <body>
 
     <header>
       <div class="container">
-        <h1>{{ page.title | default: site.title }}</h1>
-        {% if page.description %}<h2>{{ page.description }}</h2>{% endif %}
+        <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
       </div>
     </header>
 
@@ -36,3 +36,4 @@
     {% endif %}
   </body>
 </html>
+
