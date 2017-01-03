@@ -1,4 +1,5 @@
 ---
+key: cheeseplant
 title: Cheeseplant's House
 description: Some thoughts and observations on the past
 ---

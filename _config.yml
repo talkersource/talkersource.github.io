@@ -4,11 +4,21 @@ theme: jekyll-theme-hacker
 
 show_downloads: false
 
+collections:
+  posts:
+    output: true
+  codebases:
+    output: true
+  family:
+    output: true
+  info:
+    output: true
+
 defaults:
   -
     scope:
       path: "" # all files
-      type: pages # possible: `pages, `posts`, `drafts`, "or any collection in your site"
+#      type: pages # possible: `pages, `posts`, `drafts`, "or any collection in your site"
     values:
       layout: basic
   -
@@ -23,11 +33,3 @@ defaults:
       type: family
     values:
       layout: family
-
-collections:
-  posts:
-    output: true
-  codebases:
-    output: true
-  family:
-    output: true
