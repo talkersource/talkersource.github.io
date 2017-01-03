@@ -10,19 +10,26 @@ layout: root
 
 [&raquo; read more]({{ talker_info.url }})
 
-## The Decline
+## What happened to them?
 
-Talkers rapidly declined in both popularity and in the number of operating sites since the late 1990s.
-When `talker.com`, a site dedicated specifically to hosting Talker servers, closed in the late
-2000s, the mere existence of Talkers was threatened more than ever.  Understandably, as the talker
-instances disappear so does their customized source code.  By 2010, nearly all of the original distribution
-sources for the most popular Talker code bases (forks) had disappeared, lost to <q>the great bit bucket
-in the sky</q>.
+The first talkers often ran as _unauthorized_ services on university networks, whose unamused administrators
+often forced the talker owners scrambling to find alternative hosting sites; in that way, keeping a talker
+online was precarious from the start.  Despite this, talkers boomed in the 1990s until they declined in both
+popularity and in the number of operating sites at the end of that decade.  Many blame the introduction of
+the instant messaging platforms ICQ (1996) and AOL Instant Messenger (1997) for talkers' demise, along with
+end-user expectations or preference for modern, _graphical_ systems over "old school" text terminals.
 
-## The TalkerSource.com Goal
+When `talker.com` -- the first and largest site dedicated specifically to hosting talker servers -- closed
+in 2009, the continued existence of talkers was threatened more than ever.  Hosting a talker takes time,
+effort, and system administrators willing to grant shell access. While many talker site administrators found
+homes on other servers, these, too, atrophied and few remain to date. Understandably, as the talker instances
+go offline so does their customized source code.  By 2010, nearly all of the original distribution sources
+for the most popular Talker code bases (forks) had disappeared, lost to <q>the great bit bucket in the sky</q>.
 
-Our goal is to maintain an archive of as many Talker and MUD code bases as we can find, to preserve a
-piece of the Internet social communities that started it all, before instant messaging and social media
+## Why TalkerSource.com?
+
+This site's goal is to maintain an archive of as many talker and related codebases as we can find, to
+preserve a piece of the Internet's first social ecosystems, before instant messaging and social media
 took over.  While we can archive the source code, we cannot recover the friendships that were lost as
 servers went offline, one by one.
 
