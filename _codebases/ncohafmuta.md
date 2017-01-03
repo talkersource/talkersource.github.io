@@ -22,12 +22,18 @@ server port.
 
 -----
 
-According to the [Talker Family Tree][tree], the Ncohafmuta codebase was derived from _Iforms_
-which was itself a fork off of [NUTS 1.x][nuts1].  So from that perspective, one could argue that
-Ncohafmuta belongs in the [NUTS family][nuts].  However, it is one of only a few codebases -- if
-not the _only_ codebase -- actively in-use at the beginning of <q>the decline</q> and still
-based off of _NUTS 1.x_.  Most other active NUTS-derived codebases at the time had forked from
-Neil's 3.x line, making Ncohafmuta a unique if not original variant.
+{% assign nuts_fam = site.family | where: "family", "nuts" | first %}
+{% assign nuts1 = site.codebases | where: "key", "nuts1" | first %}
+{% assign iforms = site.codebases | where: "key", "iforms" | first %}
+
+According to the [Talker Family Tree][tree], the Ncohafmuta codebase was derived from
+[{{ iforms.title }}]({{ iforms.url }}) which was itself a fork off of
+[{{ nuts1.title }}]({{ nuts1.url }}).  So from that perspective, one could argue that
+Ncohafmuta belongs in the [{{ nuts_fam.title }} family]({{ nuts_fam.url }}).  However,
+it is one of only a few codebases -- if not the _only_ codebase -- actively in-use at
+the beginning of <q>the decline</q> and still based off of _{{ nuts1.title }}_.  Most
+other active NUTS-derived codebases at the time had forked from Neil's 3.x line,
+making Ncohafmuta a unique if not original variant.
 
 **Versions**<br/>
 1.4.x - stable<br/>
@@ -37,7 +43,5 @@ Neil's 3.x line, making Ncohafmuta a unique if not original variant.
 newer or different changes when compared to this archive's repository.
 
 [tree]: /talkertree.txt
-[nuts]: {% assign nuts_fam = site.family | where: "family", "nuts" | first %}{{ nuts_fam.url }}
-[nuts1]: {% assign nuts1 = site.codebases | where: "key", "nuts1" | first %}{{ nuts1.url }}
 [freecode]: http://freecode.com/projects/ncohafmuta
 [upstream]: https://github.com/abiacco/ncohafmuta
