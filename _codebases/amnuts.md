@@ -9,3 +9,8 @@ family: nuts
 parent: nuts3
 parent_version: 3.3.3
 ---
+
+**NOTE:** The author maintains a separate [GitHub repository][upstream], which may contain
+newer or different changes when compared to this archive's repository.
+
+[upstream]: https://github.com/amnuts/Amnuts
