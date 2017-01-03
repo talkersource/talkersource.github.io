@@ -1,7 +1,7 @@
 title: TalkerSource.com
 description: An archive of text-based chat server code from the early days of the Internet
 theme: jekyll-theme-hacker
-
+excerpt_separator: "<!--more-->"
 show_downloads: false
 
 collections:

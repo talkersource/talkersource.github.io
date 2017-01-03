@@ -3,37 +3,12 @@ title: TalkerSource.com
 layout: root
 ---
 
-## What are/were <q>talkers</q>?
+## What are <q>talkers</q>?
 
 {% assign talker_info = site.info | where: "key", "talker" | first %}
 {{ talker_info.excerpt }}
 
-[Read more...]({{ talker_info.url }})
-
-This was a time when...
-
-- _instant messaging_ (e.g. ICQ, AOL IM, etc.) did not exist
-- the most common Internet access was through work or a university
-- home users relied upon very slow _dial-up modems_ that tied up a landline telephone circuit
-- a TCP/IP stack (required for Internet communication) was not a standard part of Windows or Mac OS
-- _graphical_ Web-browsing was a recent invention; most Internet services were _text-based_
-
-Individual talkers were often customized around a _theme_, and consisted of multiple named
-<q>rooms</q> that fit within the theme.  Some rooms were public, and others could be made private
-for sensitive conversations.  As the name suggests, the purpose was primarily to enable casual
-conversation.  (Unlike MUDs, which were similar software services of the era, but these often focused
-more on role- or game-play than conversation.)  Since all communication was text-based, it was relatively
-quick (as long as your connection didn't experience _lag_) but mostly required users to be
-online simultaneously, in stark contrast to other Internet communication formats such as e-mail or Usenet.
-Customizations and distinguishing features, made to attract users to a particular talker server over another,
-were almost always applied by changing the source code and recompiling.  Popular code bases were shared
-and [forked, renamed, and shared][tree] again.
-
-IRC (Internet Relay Chat) is another text-based, real-time chat technology from the same era and its user
-experience exists essentially unchanged on the Internet of today.  IRC networks facilitate chat, messaging,
-and even file transfers, but lack the theming that gave each Talker site a unique personality.
-
-[tree]: talkertree.txt
+[&raquo; read more]({{ talker_info.url }})
 
 ## The Decline
 
