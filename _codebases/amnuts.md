@@ -1,6 +1,6 @@
 ---
 key: amnuts
-title: AmNUTS
+title: Amnuts
 description: Andy's modified NUTS
 author: Andrew Collington
 website: http://www.amnuts.com/
