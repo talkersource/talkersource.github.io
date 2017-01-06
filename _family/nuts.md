@@ -76,8 +76,9 @@ remember or find out...
     <tr><td>July 1994</td><td>2.0.2</td><td></td></tr>
     <tr><td></td><td>2.0.3</td><td></td></tr>
     <tr><td>August 1994</td><td>2.1.0</td><td></td></tr>
+    <tr><td>September 1994</td><td>2.1.1</td><td>(date from archived tarball)</td></tr>
     <tr><td>November 1994</td><td>2.2.0</td><td></td></tr>
-    <tr><td>December 1994</td><td>2.0.1</td><td></td></tr>
+    <tr><td>December 1994</td><td>2.2.1</td><td></td></tr>
     <tr><td>January 1995</td><td>2.3.0</td><td></td></tr>
 
     <tr><td>Feb 1996</td><td><strong>3.0.0a</strong></td><td>alpha test release</td></tr>
@@ -92,6 +93,6 @@ remember or find out...
     <tr><td>November 1996</td><td>3.3.2</td><td></td></tr>
     <tr><td></td><td>3.3.3</td><td>Final NUTS 3 version</td></tr>
 
-    <tr><td>?</td><td><strong>4-1.4.1</strong></td><td></td></tr>
+    <tr><td>September 2005</td><td><strong>4-1.4.1</strong></td><td>(date from archived tarball)</td></tr>
   </tbody>
 </table>

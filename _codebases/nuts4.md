@@ -6,7 +6,7 @@ author: Neil Robertson
 license: GPL 2.0
 license_note: (retroactively)
 website: http://www.ogham.demon.co.uk/nuts4.html
-github_url: https://github.com/talkersource/nuts4
+github_url: https://github.com/talkersource/nuts
 family: nuts
 parent: nuts3
 ---
