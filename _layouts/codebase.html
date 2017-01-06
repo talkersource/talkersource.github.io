@@ -16,9 +16,10 @@
         {% if page.author %}<p>developed by {{ page.author }}</p>{% endif %}
         {% if page.github_url %}
         <section id="downloads">
-            <a href="{{ page.github_url }}/archive/master.zip" class="btn">Download as .zip</a>
-            <a href="{{ page.github_url }}/archive/master.tar.gz" class="btn">Download as .tar.gz</a>
-            <a href="{{ page.github_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+            <!--a href="{{ page.github_url }}/archive/master.zip" class="btn">Download as .zip</a>
+            <a href="{{ page.github_url }}/archive/master.tar.gz" class="btn">Download as .tar.gz</a-->
+            <a href="{{ page.github_url }}/releases" class="btn">Download archived releases</a>
+            <a href="{{ page.github_url }}" class="btn btn-github"><span class="icon"></span>View project on GitHub</a>
         </section>
         {% endif %}
       </div>
