@@ -45,6 +45,9 @@
           <dt>derived from</dt>
           <dd><a href="{{ parentcode.url }}">{{ parentcode.title }}</a> {% if page.parent_version %}(version {{ page.parent_version }}){% endif %}</dd>
         {% endif %}
+        {% if page.license %}
+          <dt>license</dt><dd>{{ page.license }} {% if page.license_note %}{{ page.license_note }}{% endif %}</dd>
+        {% endif %}
         {% if page.website %}
           <dt>website</dt><dd><a href="{{ page.website }}">{{ page.website }}</a></dd>
         {% endif %}

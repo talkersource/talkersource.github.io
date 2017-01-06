@@ -8,6 +8,30 @@ family: nuts
 
 Written by Neil Robertson (neil@ogham.demon.co.uk)
 
+## License
+
+On July 18, 2002, in the `alt.talkers` Usenet group, author Neil Robertson
+[retroactively applied][nuts-gpl] the [GNU General Public License v2.0][gplv2]
+to all original NUTS source code releases.  (Note: the GPL version was not explicitly
+stated but, based on the date, GPLv2 is assumed since it was the latest version
+available at the time.)
+
+> I've decided to GPL the entire NUTS code from the very first version to the very last.
+> Since I can't be arsed to re-release all the code with a new copyright this post will
+> have to suffice. Why anyone would want to use 10 year old badly written flaky code in
+> their own I'm not sure but someone did and asked if he could GPL is so I thought what
+> the hell, might as well GPL the whole lot.
+
+Presumably, the terms of the GPL license would apply to new derivative works based off
+of the original NUTS code after that date, but forks and other derivative works that
+already existed as of July 2002 would be grandfathered under the previous terms
+of use (and also their subsequent derivatives, if any).  However, this paragraph is not
+legal advice; you are encouraged to seek proper legal counsel if you have questions
+regarding the full implications of this retroactive assignment.
+
+[nuts-gpl]: https://groups.google.com/forum/#!msg/alt.talkers/1XcZfT_xYwY/i4kc20Rw6C4J
+[gplv2]: https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
+
 ## NUTS History (also written by Neil)
 
 NUTS started out as a university project in 1992 for the final year of my
