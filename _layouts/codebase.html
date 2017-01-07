@@ -28,11 +28,22 @@
     <div class="container">
       {% unless page.github_url %}
       <section>
-        <h3>Oh no!</h3>
-        <small>We know this code existed long ago, but it's not in our archive.
+        <h3>:-(</h3>
+        <small>This source code is not in the archive, and a part of Internet history may already be lost forever.
         If <strong>you</strong> have a copy, please <a href="https://github.com/talkersource/talkersource.github.io/issues">contact us</a>.</small>
       </section>
       {% endunless %}
+
+      {% assign descendants = site.codebases | where: "parent", page.key %}
+      {% assign descendant_count = descendants | size %}
+      {% if descendant_count > 0 %}
+      <section id="descendants">
+        <h4>direct descendants</h4>
+        <ul>
+        {% for other in descendants %}<li><a href="{{ other.url }}">{{ other.title }}</a></li>{% endfor %}
+        </ul>
+      </section>
+      {% endif %}
 
       <section id="attributes">
         <dl>
@@ -54,7 +65,7 @@
         </dl>
       </section>
 
-      <section id="main_content">
+      <section id="main_content" style="clear: both;">
         {{ content }}
       </section>
 
@@ -65,16 +76,6 @@
         newer or different changes when compared to the contents of the TalkerSource.com archive.
       </section>
       {% endif %}
-
-      {% assign descendants = site.codebases | where: "parent", page.key %}
-      {% assign descendant_count = descendants | size %}
-      {% if descendant_count > 0 %}
-      <section id="descendants">
-        <h4>Direct descendants</h4>
-        {% for other in descendants %}<a href="{{ other.url }}">{{ other.title }}</a><br/>{% endfor %}
-      </section>
-      {% endif %}
-
     </div>
 
     {% if site.google_analytics %}
