@@ -259,7 +259,7 @@ make you smile.
 
 ## The Source
 
-By popular request, I decided to release the source code for CPH as a
+By popular request, I decided to release the [source code for CPH][cph-src] as a
 historical monument.  Please read the README.SRC that's included with it
 before asking me ANY questions about it.
 
@@ -271,3 +271,5 @@ So, without further ado, it's
 <div style="text-align: right;">
 &mdash; <i>Daniel Stephens, September 28th, 2000</i>
 </div>
+
+[cph-src]: https://github.com/talkersource/cheeseplants-house
