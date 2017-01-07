@@ -39,7 +39,7 @@ servers went offline, one by one.
   #codebase_index { padding-bottom: 1em; }
   #codebase_index > h3 { padding-top: 1em; }
   #codebase_index > h3:first-child { padding-top: 0; }
-  #codebase_index > span { display: inline-block; margin-left: 2.5em; min-width: 6em; }
+  #codebase_index > span { display: inline-block; margin-left: 2.5em; margin-bottom: 1em; min-width: 9.5em; }
 </style>
 <div id="codebase_index">
 {% assign codes_by_family = site.codebases | group_by: "family" | sort: "name" %}
