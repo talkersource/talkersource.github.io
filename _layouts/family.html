@@ -24,11 +24,13 @@
       <section id="descendants">
         <h4>family members</h4>
         <ul>
+        {% assign nocode = 0 %}
         {% assign family_codes = site.codebases | where: "family", page.family %}
         {% for code in family_codes %}
-          <li><a href="{{ code.url }}">{{ code.title }}</a></li>
+          <li><a href="{{ code.url }}">{{ code.title }}</a>{% unless code.github_url %}&nbsp;*{% assign nocode = nocode | plus: 1 %}{% endunless %}</li>
         {% endfor %}
         </ul>
+        {% if nocode > 0 %}<sup>*</sup> <small>missing source code</small>{% endif %} 
       </section>
 
     </div>
