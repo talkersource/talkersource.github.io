@@ -28,10 +28,10 @@ for the most popular Talker code bases (forks) had disappeared, lost to <q>the g
 
 ## Why TalkerSource.com?
 
-This site's goal is to maintain an archive of as many talker and related codebases as we can find, to
-preserve a piece of the Internet's first social ecosystems, before instant messaging and social media
-took over.  While we can archive the source code, we cannot recover the friendships that were lost as
-servers went offline, one by one.
+{% assign about_us = site.info | where: "key", "about" | first %}
+{{ about_us.excerpt }}
+
+[&raquo; read more]({{ about_us.url }})
 
 ## Source Code by Talker Family
 
