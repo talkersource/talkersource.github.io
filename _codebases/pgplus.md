@@ -1,6 +1,6 @@
 ---
 key: pgplus
-title: Playground Plus
+title: PlayGround Plus
 author: Richard Lawrence (Silver), J. Bradley Christian (Phypor), & Geoffrey Swift (Blimey)
 family: ewtoo
 parent: pg96
