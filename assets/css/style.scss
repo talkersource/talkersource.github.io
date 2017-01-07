@@ -16,5 +16,5 @@ section#attributes dt { color: #b5e853; font-weight: bold; }
 section#descendants { padding-bottom: 1em; float: right; }
 section#descendants h4 { font-weight: bold; margin: 0; }
 section#descendants ul { padding: 0; margin: 0; margin-top: 0.25em; margin-left: 2.25em;}
-section#descendants li { margin-bottom: 0.5em; }
+section#descendants li { margin-bottom: 0.5em; padding-left: 1.25em; text-indent: -1.25em; }
 section#descendants li:before { content: ''; content: none; }
