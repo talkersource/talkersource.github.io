@@ -5,10 +5,14 @@
 
 a { text-decoration: none; border-bottom: dotted 1px; }
 a:hover { border-bottom-style: solid; }
-header h1 { margin: 0; }
-header h1:before { content: ""; }
-.container { max-width: 800px; }
 code { white-space: nowrap; color: #b5e853; font-weight: bold; font-family: 'Oxygen Mono', 'Nimbus Mono L', 'Courier New', 'Courier',  monospace; }
+
+header h1 { margin: 0; }
+header h1:before { content: ""; content: none; }
+header p { margin-top: 0; }
+header section.sitenav { margin-bottom: 5px; font-size: 10pt; }
+
+.container { max-width: 800px; }
 
 section#main_content { clear: both; }
 section#attributes { padding-bottom: 1em; }

@@ -11,9 +11,9 @@
 
     <header>
       <div class="container">
+        <section class="sitenav"><a href="{{ site.url }}">&laquo; Archive home</a></section>
         <h1>{{ page.title | default: 'Untitled' }} Family</h1>
-        <h2>{{ page.description | default: '' }}</h2>
-        <section><small><a href="{{ site.url }}">&laquo; Archive Home</a></small></section>
+        {% if page.description %}<h2>{{ page.description }}</h2>{% endif %}
       </div>
     </header>
 
