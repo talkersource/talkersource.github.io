@@ -9,7 +9,7 @@ code { white-space: nowrap; color: #b5e853; font-weight: bold; font-family: 'Oxy
 
 header h1 { margin: 0; }
 header h1:before { content: ""; content: none; }
-header p { margin-top: 0; }
+header p { margin-top: 0; text-indent: -8.1em; padding-left: 8.1em; }
 header section.sitenav { margin-bottom: 5px; font-size: 10pt; }
 
 .container { max-width: 800px; }
