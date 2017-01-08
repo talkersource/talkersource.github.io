@@ -60,7 +60,7 @@ archive it here!
 New submissions, or comments/requests from code authors already included here, can reach
 us by [opening an issue on GitHub][gh-issue].
 
-[gh-issue]: https://github.com/talkersource/talkersource.github.io/issues
+[gh-issue]: https://github.com/talkersource/talkersource.github.io/issues/new
 
 <p style="font-size: 9pt;">
   An earlier version of this site hosted source code in <a href="https://www.mercurial-scm.org/">Mercurial</a> repositories,
