@@ -2,6 +2,7 @@
 key: avios
 title: Avios
 author: Neil Robertson
+github_url: https://github.com/talkersource/avios
 family: other
 ---
 
