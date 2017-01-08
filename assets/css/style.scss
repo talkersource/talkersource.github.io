@@ -8,7 +8,7 @@ a:hover { border-bottom-style: solid; }
 header h1 { margin: 0; }
 header h1:before { content: ""; }
 .container { max-width: 800px; }
-code { white-space: nowrap; color: #b5e853; font-weight: bold; font-family: 'Oxygen Mono', 'Nimbus Mono L', 'Courier New', 'Courier',  serif; }
+code { white-space: nowrap; color: #b5e853; font-weight: bold; font-family: 'Oxygen Mono', 'Nimbus Mono L', 'Courier New', 'Courier',  monospace; }
 
 section#main_content { clear: both; }
 section#attributes { padding-bottom: 1em; }
