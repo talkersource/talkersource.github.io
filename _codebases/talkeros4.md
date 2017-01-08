@@ -1,5 +1,5 @@
 ---
-key: talkeros4
+key: tos4
 title: TalkerOS 4.x
 author: William Price
 github_url: https://github.com/talkersource/tos4
