@@ -24,8 +24,8 @@ available at the time.)
 
 Presumably, the terms of the GPL license would apply to new derivative works based off
 of the original NUTS code after that date, but forks and other derivative works that
-already existed as of July 2002 would be grandfathered under the previous terms
-of use (and also their subsequent derivatives, if any).  However, this paragraph is not
+already existed as of July 2002 (and also their derivatives, if any) would be
+grandfathered under the previous terms of use.  However, this paragraph is not
 legal advice; you are encouraged to seek proper legal counsel if you have questions
 regarding the full implications of this retroactive assignment.
 
