@@ -57,9 +57,13 @@ This archive project started too late to save them all.  But if you find a tarba
 Talker or MUD source code on that backup tape, Zip drive, or floppy diskette, we want to
 archive it here!
 
-New submissions, or comments/requests from code authors already included here, can reach
+New submissions, or comments/requests from code authors already in the archive, can reach
 us by [opening an issue on GitHub][gh-issue].
 
+Otherwise, feel free to take a trip down Memory Lane and read the [additional material][info] gathered
+in the course of building the main archive content.
+
+[info]: /info/
 [gh-issue]: https://github.com/talkersource/talkersource.github.io/issues/new
 
 <p style="font-size: 9pt;">
