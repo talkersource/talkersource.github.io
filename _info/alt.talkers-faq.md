@@ -3,7 +3,7 @@ key: alt.talkers-faq
 title: Alt.Talkers Frequently Asked Questions
 description: Purpose of alt.talkers, plus general 'talker' info
 created: 2017-01-09 01:26:44 UTC
-updated: 2017-01-09 02:13:52 UTC
+updated: 2017-01-09 03:01:00 UTC
 ---
 
 <!--more-->
@@ -11,11 +11,11 @@ updated: 2017-01-09 02:13:52 UTC
 NNTP-Posting-Date: Sat, 1 Nov 2008 00:00:06 +0000 (UTC)<br/>
 Cross-posted to newsgroups: `alt.talkers`, `alt.talkers.programming`, `alt.talkers.ewtoo`, `alt.talkers.nuts`
 
-## Alt.Talkers FAQ (Frequently Asked Questions) v1.11
+# Alt.Talkers FAQ (Frequently Asked Questions) v1.11
 
 Last Updated:  5th October 2004
 
-### Introduction
+## Introduction
 
 This FAQ aims to explain a few things about the alt.talkers
 newsgroup, and any newsgroups formed under it.  The primary reason for
@@ -27,7 +27,7 @@ There is also some material about the talkers this newsgroup *is*
 about.  It is expected that this information will quickly become
 dominant in this FAQ.
 
-### Contents
+## Contents
 
 <pre>
    NB: a '*' means the section is new to the FAQ in this update.
@@ -65,9 +65,9 @@ dominant in this FAQ.
 
 -----
 
-### 1.0   The Newsgroup Alt.Talkers
+## 1.0   The Newsgroup Alt.Talkers
 
-#### 1.1 What Is The Newsgroup Alt.Talkers Meant For?
+### 1.1 What Is The Newsgroup Alt.Talkers Meant For?
 
 Alt.talkers was created to give peole who USE talkers a place to
 exchange information.  This might be announcements of new talkers, 
@@ -81,7 +81,7 @@ If there is demand for a more complex hierarchy of groups I'm sure we
 can sort that out.  For the time being alt.talkers is a fairly quiet
 group, so there is no need to fragment discussion into seperate groups.
 
-#### 1.2 What Is Alt.Talkers *NOT* Meant For?
+### 1.2 What Is Alt.Talkers *NOT* Meant For?
 
 Alt.talkers is *not* meant to be a place for people to just talk.
 That is what the actual talkers are for after all.  If you feel the
@@ -100,9 +100,9 @@ stated otherwise.
 
 -----
 
-### 2.0   Information About Talkers
+## 2.0   Information About Talkers
 
-#### 2.1  Ok, I'm Not Supposed To Chat Here, How DO I Use One Of These Talkers?
+### 2.1  Ok, I'm Not Supposed To Chat Here, How DO I Use One Of These Talkers?
 
 Basically you need a 'telnet' program.  Any users of 'unix' like
 machines can just do something like:
@@ -126,7 +126,7 @@ allow you to specify a port number other than the default '23'.  Most
 talkers run on a port above 1023, due to the design of unix-like
 operating systems that most talkers run on.
 
-#### 2.2  Right, I've Located A Telnet Program I Can Use. Where Do I Telnet To?
+### 2.2  Right, I've Located A Telnet Program I Can Use. Where Do I Telnet To?
 
 The style of talkers this newsgroup was first set up to discuss is
 those based on the 'EW-Too' code by Simon Marsh (aka Burble on
@@ -163,7 +163,7 @@ may be able to just type the full address into a dialogue box.  With
 others you may have to change the 'Default Port', or similar setting,
 to ensure you get the correct address.
 
-#### 2.3  Eeek! I've Connected To A Talker.  What Now?
+### 2.3  Eeek! I've Connected To A Talker.  What Now?
 
 This all depends on what sort of talker you're now connected to.
 Most will ask you for a name that you would like to be known by on the
@@ -193,15 +193,15 @@ that would make you say "help", try '.help'.
 
 -----
 
-### 3.0  Basic Information For Types of Talker
+## 3.0  Basic Information For Types of Talker
 
-#### 3.1  EW-Too
+### 3.1  EW-Too
 
 EW-Too talkers are what I would class as 'command' talkers.  This
 means you can't just type away to chat, you need to use a command such
 as say to get anything out to other people.
 
-##### 3.1.1  Connecting
+#### 3.1.1  Connecting
 
 Just telnet to the appropriate address.  You will get a screen or so
 of text that is the 'banner' for the talker you're connected to.
@@ -229,7 +229,7 @@ description of the room you're in, either the main one or one
 especially set aside for 'Newbies'. Below this is a list of other
 people in the room with you.
 
-##### 3.1.2  What Now?
+#### 3.1.2  What Now?
 
 The basic command on EW-Too talkers is 'say':
 
@@ -255,11 +255,11 @@ get commandlists of certain types of commands.
 This information may in time be expanded, but right now the author
 is tired and thinks this is enough for a first draft.
 
-#### 3.2  OOT/JOOT
+### 3.2  OOT/JOOT
 
 NB: This section supplied by: Dave_...@Software.Mitel.COM (Dave Jarvis)
 
-##### 3.2.1 OOT
+#### 3.2.1 OOT
 
 The Object-Oriented Talker.  Written in C++, this talker code allows you
 to manipulate over 200 strings, and customise almost every aspect of it
@@ -276,7 +276,7 @@ without recompiling, nor even rebooting.  A few other features:
 
 Available at: `http://www.joot.com/software/archives/`
 
-#####  3.2.2 JOOT
+####  3.2.2 JOOT
 
 The Java-based Object-Oriented Talker.  Written in Java, this talker code
 allows you to manipulate over 350 strings, and customise more aspects of
@@ -299,9 +299,9 @@ Available at: `http://www.joot.com/software/archives/`
 
 Soon a Web-based ANSI Terminal Emulator will be released (including source).
 
-#### 3.3  NUTS
+### 3.3  NUTS
 
-##### 3.3.1  Where to find information on NUTS
+#### 3.3.1  Where to find information on NUTS
 
 The NUTS home page is located at: `http://www.ogham.demon.co.uk/nuts.html`
 
@@ -309,19 +309,19 @@ This includes a full FAQ about NUTS, and is written by the author of NUTS.
 
 NUTS IV is now available: `http://www.ogham.demon.co.uk/nuts4.html`
 
-#### 3.4 iFORMS
+### 3.4 iFORMS
 
-##### 3.4.1  What is iFORMS?
+#### 3.4.1  What is iFORMS?
 
 The NUTS code spawned a bastard child called iFORMS (internet FORum
 Multiplexing System..or internet FORuMS as the creator calls it now)
 This was written by "Deep" (Victor Rohr).
 
-#### 3.5 Ncohafmuta
+### 3.5 Ncohafmuta
 
 NB: This section supplied by: co...@asteroid-b612.org (Anthony J. Biacco)
 
-##### 3.5.1  What is Ncohafmuta?
+#### 3.5.1  What is Ncohafmuta?
 
 Ncohafmuta is an advanced talker system written in C. It has been
 around since mid '94 and is based off the no longer developed iFORMS code
@@ -344,11 +344,11 @@ Its distiguishable features are:
 
 The Ncohafmuta homepage is located at: `http://www.asteroid-b612.org/ncohafmuta`
 
-#### 3.6 Amnuts
+### 3.6 Amnuts
 
 NB: This section supplied by: amn...@talker.com (Andrew Collington)
 
-##### 3.6.1  What is Amnuts?
+#### 3.6.1  What is Amnuts?
 
 The current incarnation of Amnuts is based on NUTS 3.3.3, though it has
 undergone a huge amount of changes, including adding over double the amount
@@ -369,7 +369,7 @@ Some modifications that have been made to Amnuts are:
 * Statistical output of memory use, system details, users, command usage
 * ...and more :)
 
-##### 3.6.2  The website
+#### 3.6.2  The website
 
 The Amnuts homepage is located at: `http://amnuts.talker.com/`
 
@@ -380,7 +380,7 @@ and so on.  There is also a list of Amnuts based talkers that you can add
 yours to, view the talkers listed, sort them, vote for them, and even print
 a graphic free version of the list (handy also for copy and pasting!)
 
-#### 3.7  CheesePlant's House
+### 3.7  CheesePlant's House
 
 This was the 'original' talker that inspired the whole EW-Too genre.
 CheesePlant has now made the source available.  Go to this URL for
@@ -390,25 +390,42 @@ http://www.cheeseplant.org/~daniel/pages/cph.html
 
 -----
 
-### 4.0  Other Resources
+## 4.0  Other Resources
 
-#### 4.1  A Few Talker Addresses
+### 4.1  A Few Talker Addresses
 
 A few recommended talkers:
 
-
-        Name                       Machine                 Port
-        Foothills                  foothills.tk            2010
-        Resort                     resort.org              2323
-        Surfers                    surfers.org             4242
+<table>
+  <thead>
+    <tr><td>Name</td> <td>Machine</td>  <td>Port</td></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Foothills</td> <td>foothills.tk</td> <td>2010</td>
+    </tr><tr>
+      <td>Resort</td>    <td>resort.org</td> <td>2323</td>
+    </tr><tr>
+      <td>Surfers</td>   <td>surfers.org</td> <td>4242</td>
+    </tr>
+  </tbody>
+</table>
 
 Some allegedly popular NUTS-based or Ncohafmuta talkers:
 
-        Enchantment Under the Sea  euts.org                2000
-	Scarlet Citadel            scarlet.eu.org          2000
-	Glantri's Labyrinth II     talker.com              2200
+<table>
+  <tbody>
+    <tr>
+      <td>Enchantment Under the Sea</td> <td>euts.org</td>       <td>2000</td>
+    </tr><tr>
+      <td>Scarlet Citadel</td>           <td>scarlet.eu.org</td> <td>2000</td>
+    </tr><tr>
+      <td>Glantri's Labyrinth II</td>    <td>talker.com</td>     <td>2200</td>
+    </tr>
+  </tbody>
+</table>
 
-#### 4.2  WWW Talker Lists
+### 4.2  WWW Talker Lists
 
 You can find the addresses for a lot more talkers at the following
 URLs.  Note that these have not been checked recently, but the first
@@ -418,7 +435,7 @@ at least should still be correct.  It is also probably the best:
 - http://realms.palni.edu/
 - http://www.talkers.ws/
 
-#### 4.3  Some Links For Getting MUD/Talker Client Programs
+### 4.3  Some Links For Getting MUD/Talker Client Programs
 
 Once you've been using a Talker, or a MUD, for a while, you'll
 quickly tire of the standard telnet clients.  If you want something
@@ -430,7 +447,7 @@ better, check out the following URLs:
 
 For further information you may like to check out the `rec.games.mud.misc` FAQ.
 
-#### 4.4  Talker hosting services
+### 4.4  Talker hosting services
 
 Now you know some base codes, found the resources and read all the
 information, you may want to set up your own talker.  There are a number
@@ -445,8 +462,7 @@ of hosts that allow you to do this, and these are some of them:
 
 -----
 
-### Contacting The Author of This FAQ
-=================================
+## Contacting The Author of This FAQ
 
 The author of this FAQ is no other than 'Athanasius', the person who
 put out the 'summink' code, which is derived from the EW-Too code.  If
