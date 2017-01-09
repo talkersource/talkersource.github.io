@@ -2,6 +2,7 @@
 key: pgplus
 title: Playground Plus
 author: Richard Lawrence (Silver), J. Bradley Christian (Phypor), & Geoffrey Swift (Blimey)
+website: http://www.pgplus.org/
 github_url: https://github.com/talkersource/playground-plus
 family: ewtoo
 parent: pg96
