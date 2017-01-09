@@ -1,6 +1,8 @@
 ---
 key: about
 title: About TalkerSource.com
+created: 2017-01-09 01:26:44 UTC
+updated: 2017-01-09 02:09:56 UTC
 ---
 
 This site's goal is to maintain an archive of as many talker and related codebases as we can find, to

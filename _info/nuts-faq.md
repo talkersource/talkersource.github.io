@@ -2,7 +2,11 @@
 key: nuts-faq
 title: NUTS Frequently Asked Questions
 description: v1.1 (26 July 1997)
+created: 2017-01-09 01:26:44 UTC
+updated: 2017-01-09 02:13:52 UTC
 ---
+
+<!--more-->
 
 > The following FAQ is transcribed for posterity from the NUTS homepage.
 > It has been formatted in the style of this site; you can view the [plain text format][faq-txt]

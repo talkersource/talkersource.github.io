@@ -2,7 +2,11 @@
 key: alt.talkers-faq
 title: Alt.Talkers Frequently Asked Questions
 description: Purpose of alt.talkers, plus general 'talker' info
+created: 2017-01-09 01:26:44 UTC
+updated: 2017-01-09 02:13:52 UTC
 ---
+
+<!--more-->
 
 NNTP-Posting-Date: Sat, 1 Nov 2008 00:00:06 +0000 (UTC)<br/>
 Cross-posted to newsgroups: `alt.talkers`, `alt.talkers.programming`, `alt.talkers.ewtoo`, `alt.talkers.nuts`

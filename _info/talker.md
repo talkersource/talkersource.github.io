@@ -1,6 +1,8 @@
 ---
 key: talker
 title: What is a 'Talker'?
+created: 2017-01-09 01:26:44 UTC
+updated: 2017-01-09 02:09:56 UTC
 ---
 
 Borrowed and mangled from [Wikipedia](https://en.wikipedia.org/wiki/Talker):

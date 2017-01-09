@@ -2,7 +2,11 @@
 key: cheeseplant
 title: Cheeseplant's House
 description: Some thoughts and observations on the past
+created: 2017-01-09 02:09:56 UTC
+updated: 2017-01-09 02:13:52 UTC
 ---
+
+<!--more-->
 
 > The following content was copied from its [original source][orig] and reformatted for the purposes of this archive.
 
