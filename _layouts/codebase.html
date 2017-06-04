@@ -12,7 +12,22 @@
 
     <header>
       <div class="container">
-        <section class="sitenav"><a href="{{ site.url }}">&laquo; Archive home</a></section>
+        <section class="sitenav">
+          <a href="{{ site.url }}">&laquo; Archive home</a>
+          <ol style="display: none;" itemscope itemtype="http://schema.org/BreadcrumbList">
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+              <a itemprop="item" itemscope itemtype="http://schema.org/Thing" href="{{ site.url }}"><span itemprop="name">Source Code</span></a>
+              <meta itemprop="position" content="1"/>
+            </li>
+            {% if page.family %}
+              {% assign family = site.family | where: "family", page.family | first %}
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+              <a itemprop="item" itemscope itemtype="http://schema.org/Thing" href="{{ family.url }}"><span itemprop="name">{{ family.title }}</span></a>
+              <meta itemprop="position" content="2"/>
+            </li>
+            {% endif %}
+          </ol>
+        </section>
         <h1 itemprop="name">{{ page.title | default: 'Untitled' }}</h1>
         <span style="display:none" itemprop="applicationCategory">Telnet chat server (Talker)</span>
         {% if page.description %}<h2>{{ page.description }}</h2>{% endif %}
@@ -52,7 +67,6 @@
       <section id="attributes">
         <dl>
         {% if page.family %}
-          {% assign family = site.family | where: "family", page.family | first %}
           <dt>family</dt><dd><span itemprop="applicationSubCategory"><a href="{{ family.url }}">{{ family.title }}</a></span></dd>
         {% endif %}
         {% if page.parent %}
