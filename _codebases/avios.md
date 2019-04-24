@@ -13,7 +13,7 @@ world just as in a real OS.
 <!--more-->
 
 The main reason for Avios existing is not simply to have a virtual OS, as by itself this
-concept isn't that usefull. Its raison d'etre is that it provides a way for people with no C
+concept isn't that useful. Its raison d'etre is that it provides a way for people with no C
 experience to set up an internet server (or even mulitple ones) and then only having to code
 in AviosPL which is a far simpler language than C as well as not having to worry about socket
 coding details.
