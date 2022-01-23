@@ -16,13 +16,13 @@
           <a href="{{ site.url }}">&laquo; Archive home</a>
           <ol style="display: none;" itemscope itemtype="http://schema.org/BreadcrumbList">
             <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-              <a itemprop="item" itemscope itemtype="http://schema.org/Thing" href="{{ site.url }}"><span itemprop="name">Source Code</span></a>
+              <a itemprop="item" href="{{ site.url }}"><span itemprop="name">Source Code</span></a>
               <meta itemprop="position" content="1"/>
             </li>
             {% if page.family %}
               {% assign family = site.family | where: "family", page.family | first %}
             <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-              <a itemprop="item" itemscope itemtype="http://schema.org/Thing" href="{{ family.url }}"><span itemprop="name">{{ family.title }}</span></a>
+              <a itemprop="item" href="{{ family.url }}"><span itemprop="name">{{ family.title }}</span></a>
               <meta itemprop="position" content="2"/>
             </li>
             {% endif %}
