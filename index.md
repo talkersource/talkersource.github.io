@@ -65,8 +65,3 @@ in the course of building the main archive content.
 
 [info]: /info/
 [gh-issue]: https://github.com/talkersource/talkersource.github.io/issues/new
-
-<p style="font-size: 9pt;">
-  An earlier version of this site hosted source code in <a href="https://www.mercurial-scm.org/">Mercurial</a> repositories,
-  <a href="http://hg.talkersource.com/" title="Old talkersource.com Hg repositories">available here</a> while supplies last.
-</p>
