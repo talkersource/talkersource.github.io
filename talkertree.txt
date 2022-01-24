@@ -1,16 +1,16 @@
                             THE TALKER TREE
                             ---------------
 
-Last updated: 23/01/2022 on TalkerSource.com
-Previous update: 18/11/2005 by Mind Booster Noori <marado@isp.novis.pt>
+Last updated: 2022-01-23 on TalkerSource.com
+Previous update: 2005-11-18 by Mind Booster Noori <marado@isp.novis.pt>
 
-<CHANGELOG:>
-12/12/2005 - Added Mamnuts to the talkers tree
-18/11/2005 - Updated Amnuts info
-29/06/2005 - Updated Neil's version (20/10/2003) to include PyTalker 
+CHANGE LOG:
+2005-06-29 - Updated Neil's version (20/10/2003) to include PyTalker 
 	     info and put it using only 72 columns' lines.
-04/09/2006 - Updated BOLTS data ask asked by its owner
-23/01/2022 - Merged MBN's 2005 update w/ NJR's 1999 alt.talkers version.
+2005-11-18 - Updated Amnuts info
+2005-12-12 - Added Mamnuts to the talkers tree
+2006-09-04 - Updated BOLTS data ask asked by its owner
+2022-01-23 - Merged MBN's 2005 update w/ NJR's 1999 alt.talkers version.
              Simplified some routing lines within the tree.
              Moved BOLTS back to child of NUTS 3 per source comments
              in the TalkerSource archive.
@@ -46,7 +46,7 @@ Ncohafmuta (94)  |                    |--------------------------
    --------------|-------------------------       :   -----------
   |      |       |          |    |         |      :    |       |
   |    BOLTS   Amnuts 1.... |  Crypt (96)  |      : Sensi-PG  PGPlus
-  |              |        : |              |      :    (98)    (98)
+  |     (97)     |        : |              |      :    (98)    (98)
   |              |        rNUTS     TalkerOS (98) :.....
   |              |                                :    :
   |            Amnuts 2 (2001)                    :  DWTS (98)
