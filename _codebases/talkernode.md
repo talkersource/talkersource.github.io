@@ -6,11 +6,11 @@ author: Marcos Torres (Mind Booster Noori)
 github_url: https://github.com/talkersource/TalkerNode
 upstream_url: https://github.com/marado/TalkerNode
 license: Unlicense
-license_notes: This is a public domain dedication, see: unlicense.org
+license_note: This is a public domain dedication, see unlicense.org
 family: other
 ---
 
-{% assign nutsFamily = site.family | where: "key", "nuts" | first %}
+{% assign nutsFamily = site.family | where: "family", "nuts" | first %}
 {% assign mamnuts = site.codebases | where: "key", "mamnuts" | first %}
 {% assign pytalker = site.codebases | where: "key", "pytalker" | first %}
 

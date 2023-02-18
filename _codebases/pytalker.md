@@ -9,7 +9,7 @@ license: GPL-2.0
 family: other
 ---
 
-{% assign nutsFamily = site.family | where: "key", "nuts" | first %}
+{% assign nutsFamily = site.family | where: "family", "nuts" | first %}
 {% assign mamnuts = site.codebases | where: "key", "mamnuts" | first %}
 {% assign talkernode = site.codebases | where: "key", "talkernode" | first %}
 
