@@ -3,10 +3,28 @@ title: NUTS
 family: nuts
 ---
 
-{% assign nuts_faq = site.info | where: "key", "nuts-faq" | first %}
-## [{{ nuts_faq.title }}]({{ nuts_faq.url }})<br/>
+The "NUTS" family of talkers all trace their origins back to the original _Neil's
+Unix Talk Server_, written in C.  This lineage is probably the most prolific and
+popular across the various codebases, simply based on the number of forks made.
 
-Written by Neil Robertson (neil@ogham.demon.co.uk)
+A NUTS-style talker often defaulted to a "speech-first" mode, where entered text
+was treated as normal chat text unless preceeded by a command or command shortcut
+character. In speech mode, input lines that begin with a dot(`.`) immediately
+followed by a command word were interpreted as commands that would either alter
+the speech behavior (ex: `.shout`) or execute other functions in the world (e.g.
+moving between rooms in the case of `.go`). An alternative "command mode" was
+available for users who preferred a more MUD-like experience, where all input
+began with a command word and "normal" speech required the use of the `say` command.
+
+{% assign otherFamily = site.family | where: "family", "other" | first %}
+This user experience was so popular that some of the [other talkers]({{ otherFamily.url }})
+outside of the NUTS family adopted or emulated the dot-command input behavior along
+with other features like markup formats for changing ANSI text and background colors
+within user-entered text without requiring users to understand ANSI color codes.
+
+{% assign nuts_faq = site.info | where: "key", "nuts-faq" | first %}
+For more information, please read the [{{ nuts_faq.title }}]({{ nuts_faq.url }})
+written by Neil Robertson.
 
 ## License
 

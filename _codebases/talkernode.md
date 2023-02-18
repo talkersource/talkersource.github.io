@@ -7,9 +7,10 @@ github_url: https://github.com/talkersource/TalkerNode
 upstream_url: https://github.com/marado/TalkerNode
 license: Unlicense
 license_notes: This is a public domain dedication, see: unlicense.org
-family: nuts
+family: other
 ---
 
+{% assign nutsFamily = site.family | where: "key", "nuts" | first %}
 {% assign mamnuts = site.codebases | where: "key", "mamnuts" | first %}
 {% assign pytalker = site.codebases | where: "key", "pytalker" | first %}
 
@@ -19,7 +20,7 @@ family: nuts
 >
 > -- from README
 
-TalkerNode was started by the same author who forked [_{{ mamnuts.title }}_]({{ mamnuts.url }}),
-and later created [_{{ pytalker.title }}_]({{ pytalker.url }}). All are in the NUTS family in
-terms of behavior, but TalkerNode's use of the JavaScript language is distinct from the NUTS
-original source code in C.
+TalkerNode was started by the same author who forked [_{{ mamnuts.title }}_]({{ mamnuts.url }})
+and later created [_{{ pytalker.title }}_]({{ pytalker.url }}). All behave in the style of 
+[_{{ nutsFamily.title }}-family]({{ nutsFamily.url }}) talkers, but TalkerNode uses the JavaScript
+language and is not derived from the original NUTS source code in C.
