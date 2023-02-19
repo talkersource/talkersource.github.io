@@ -58,10 +58,11 @@ Talker or MUD source code on that backup tape, Zip drive, or floppy diskette, we
 archive it here!
 
 New submissions, or comments/requests from code authors already in the archive, can reach
-us by [opening an issue on GitHub][gh-issue].
+us by [opening an issue on GitHub][gh-issue-submission].
 
 Otherwise, feel free to take a trip down Memory Lane and read the [additional material][info] gathered
 in the course of building the main archive content.
 
 [info]: /info/
-[gh-issue]: https://github.com/talkersource/talkersource.github.io/issues/new
+[gh-issue-submission]: https://github.com/talkersource/talkersource.github.io/issues/new?assignees=wrprice&labels=&template=new-submission-to-archive.md&title=New+submission%3A+%5Bname+of+code+here%5D
+[gh-issue-plain]: https://github.com/talkersource/talkersource.github.io/issues/new
