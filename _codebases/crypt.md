@@ -13,13 +13,11 @@ A notable feature of _Crypt_ was its ability to compile and run on versions of M
 Windows (95/NT4) common in its era -- something practically unheard of in the Talker space,
 making this a very unique codebase.
 
-The archive contains two branches; the default `master` branch contains one version of the
-source code, which consists only of the `*.c` and `*.h` main program files.  Other files
-required for actually running a talker are missing from the ZIP file received from the
-original author.  Presumably one could use the same file tree from NUTS 3.2.1, but the
-archive maintainers have not verified this.  The `rick-collette/6.x` branch contains a
-more complete, and newer version of this codebase; it was retrieved from his
-[sourceforge.net project][sf] but contains code not written by Crypt's original author(s).
+The archive contains two branches; the default `crypt/v5` branch contains an original
+distribution of version 5.0, later patched with C source and header files for version 5.3.
+The `rick-collette/6.x` branch contains a newer version of this codebase; it was retrieved
+from his [sourceforge.net project][sf] but contains code not written by Crypt's original
+author(s).
 
 Robert Collette [wrote][sf-news]:
 
