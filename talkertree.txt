@@ -38,15 +38,15 @@ Ncohafmuta (94)  |                    |--------------------------
   |      |       |          |    |         |      :    |       |
   |    BOLTS   Amnuts 1.... |  Crypt (96)  |      : Sensi-PG  PGPlus
   |     (97)     |        : |              |      :    (98)    (98)
-  |              |        rNUTS     TalkerOS (98) :.....
-  |              |                                :    :
-  |            Amnuts 2 (2001)                    :  DWTS (98)
-NUTS-IV (2003)   |                                :
-               Mamnuts (2005)                   PyTalker (2005)
-                                                  :
-                                                TalkerNode (2013)
-
-
+  |              |        rNUTS     TalkerOS (98) :.....       |
+  |              |                                :    :       |
+  |            Amnuts 2 (2001)                    :  DWTS (98) |
+NUTS-IV (2003)   |                                :            |
+               Mamnuts (2005)                 PyTalker (2005)  |
+                                                  :            |
+                                             TalkerNode (2013) |
+                                                               |
+                                                   Playground Plus '26
   | = Directly derived from.
   : = Inspired by.
 
@@ -95,6 +95,7 @@ Jeamland            - Andy Fiddaman
 PyTalker            - Marcos Marado (Mind Booster Noori),
                       Daniel Cruz (FX) & José Martins (Hellraiser)
 Mamnuts/TalkerNode  - Marcos Marado (Mind Booster Noori)
+Playground Plus '26 - Tony Mattke (tonhE), Jeremy Modjeska (Raindog)
 
 
 Primary FTP/Web sites
@@ -102,36 +103,37 @@ Primary FTP/Web sites
 Most if not all of these servers/systems are no longer being maintained
 therefore it is not surprising that most of these sites are now invalid.
 
-IRC               -   Lots of versions available all over the net/web.
-Unaxcess          -   http://ua2.org/
-NUTS 3            - * ftp://ftp.ccs.neu.edu/pub/mud/servers/misc/nuts
-                    * http://www.ogham.demon.co.uk/nuts.html
-NUTS-IV           - * http://www.ogham.demon.co.uk/nuts4.html
-KTserv            - * http://talkers.moremagic.com/KTserv/
-Iforms            - * http://204.57.196.12/~rohr/iforms/
-BOLTS             -   Previously distributed directly by author
-Amnuts            -   http://amnuts.net/
-Crypt             - * http://www.tendril.force9.co.uk/crypt
-Ncohafmuta        - # http://ncohafmuta.com/code/
-rNUTS             - * http://rnuts.cybermac.net or email Engi or Slugger
-DWTS              - * http://www.talker.com/cybercity/DWTS
-TalkerOS          - * http://pageaz.net/~maddly/talkeros/
-LPmud driver      -   So many variants now theres no one single site.
-Cat Chat          - ?
-Cheeseplants House- ?
-EWToo             - * ftp://ftp.ewtoo.org/pub/distrib/ewtoo
-                    * ftp://toybox.infomagic.com/pub/foothills/src
-Summink           - * ftp://ftp.ewtoo.org/pub/distrib/summink
-                    * ftp://ftp.mersinet.co.uk/pub/Unix/Talkers/Src/
-Sensi-Summink     - * http://www.sanger.ac.uk/~jg1/
-PG96              - # http://astyanax.home.ml.org/download.html
-GRel              - ?
-Sensi-PG          - ?
-PG+               - * http://pgplus.ewtoo.org/
-OOT, JOOT         - # http://www.joot.com
-Jeamland          -   http://www.jeamland.org
-PyTalker          - * http://talkerspt.no-ip.org/~pytalker
-Mamnuts           -   http://mamnuts.blogspot.com
+IRC                 -   Lots of versions available all over the net/web.
+Unaxcess            -   http://ua2.org/
+NUTS 3              - * ftp://ftp.ccs.neu.edu/pub/mud/servers/misc/nuts
+                      * http://www.ogham.demon.co.uk/nuts.html
+NUTS-IV             - * http://www.ogham.demon.co.uk/nuts4.html
+KTserv              - * http://talkers.moremagic.com/KTserv/
+Iforms              - * http://204.57.196.12/~rohr/iforms/
+BOLTS               -   Previously distributed directly by author
+Amnuts              -   http://amnuts.net/
+Crypt               - * http://www.tendril.force9.co.uk/crypt
+Ncohafmuta          - # http://ncohafmuta.com/code/
+rNUTS               - * http://rnuts.cybermac.net or email Engi or Slugger
+DWTS                - * http://www.talker.com/cybercity/DWTS
+TalkerOS            - * http://pageaz.net/~maddly/talkeros/
+LPmud driver        -   So many variants now theres no one single site.
+Cat Chat            - ?
+Cheeseplants House  - ?
+EWToo               - * ftp://ftp.ewtoo.org/pub/distrib/ewtoo
+                      * ftp://toybox.infomagic.com/pub/foothills/src
+Summink             - * ftp://ftp.ewtoo.org/pub/distrib/summink
+                      * ftp://ftp.mersinet.co.uk/pub/Unix/Talkers/Src/
+Sensi-Summink       - * http://www.sanger.ac.uk/~jg1/
+PG96                - # http://astyanax.home.ml.org/download.html
+GRel                - ?
+Sensi-PG            - ?
+PG+                 - * http://pgplus.ewtoo.org/
+OOT, JOOT           - # http://www.joot.com
+Jeamland            -   http://www.jeamland.org
+PyTalker            - * http://talkerspt.no-ip.org/~pytalker
+Mamnuts             -   http://mamnuts.blogspot.com
+Playground Plus '26 -   https://github.com/playground-plus/playground-plus
 
 * = Last known web page / ftp site but page/directory no longer available.
 # = Page/directory still exists but is now used for other products/services.
