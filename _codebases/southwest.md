@@ -25,3 +25,16 @@ reported on 26 March, 2002, and described by [Internet Security Systems][iss-862
 
 [CVE-2002-0496]: https://www.cve.org/CVERecord?id=CVE-2002-0496
 [iss-8626]: https://web.archive.org/web/20030309064836/http://www.iss.net/security_center/static/8626.php
+
+{% assign crypt = site.codebases | where: "key", "crypt" | first %}
+{% assign joot = site.codebases | where: "key", "joot" | first %}
+
+The codebase's tag line,
+
+    The only true Windows talker server
+
+isn't quite true.  The archive's snapshot of SouthWest dates from sometime in
+1999, but there was also _[{{crypt.title}}]({{crypt.url}})_ which could compile
+on Windows and existed since at least 1997.  Technically, since it was built on
+the cross-platform Java language, _[{{joot.title}}]({{joot.url}})_ was another
+option for operators using the Windows OS.

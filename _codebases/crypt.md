@@ -11,7 +11,7 @@ parent_version: 3.2.1
 
 A notable feature of _Crypt_ was its ability to compile and run on versions of Microsoft
 Windows (95/NT4) common in its era -- something practically unheard of in the Talker space,
-making this a very unique codebase.
+making this a very unique codebase<sup>1</sup>.
 
 The archive contains two branches; the default `crypt/v5` branch contains an original
 distribution of version 5.0, later patched with C source and header files for version 5.3.
@@ -40,3 +40,9 @@ Bryan McPhail [wrote](http://www.bryanmcphail.com/wp/?p=235):
 
 [sf]: https://sourceforge.net/projects/crypttalker/
 [sf-news]: https://sourceforge.net/p/crypttalker/news/2005/10/the-crypt-talker/
+
+{% assign crypt = site.codebases | where: "key", "crypt" | first %}
+{% assign joot = site.codebases | where: "key", "joot" | first %}
+
+<sup>1</sup> Other codebases for Windows included _[{{crypt.title}}]({{crypt.url}})_ and
+_[{{joot.title}}]({{joot.url}})_.
