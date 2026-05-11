@@ -37,15 +37,18 @@ for the most popular Talker code bases (forks) had disappeared, lost to <q>the g
 
 <style type="text/css">
   #codebase_index { padding-bottom: 1em; }
-  #codebase_index > h3 { padding-top: 1em; }
+  #codebase_index > h3 { padding-top: 1.5em; }
   #codebase_index > h3:first-child { padding-top: 0; }
-  #codebase_index > span { display: inline-block; margin-left: 2.5em; margin-bottom: 1em; min-width: 9.5em; }
+  .codebase_family_list { columns: 9.5em 5; margin-left: 2.5em; }
+  .codebase_family_list > div { margin-bottom: 1em; padding-left: 0.75em; text-indent: -0.75em; }
 </style>
 <div id="codebase_index">
 {% assign codes_by_family = site.codebases | group_by: "family" | sort: "name" %}
 {% for family in codes_by_family %}{% assign fam = site.family | where: "family", family.name | first %}
-  <h3><a href="{{fam.url}}">{{ fam.title }}</a> family</h3>
-  {%for codebase in family.items %}<span><a href="{{codebase.url}}">{{codebase.title}}</a></span>{% endfor %}
+  <h3><a href="{{fam.url}}">{{ fam.title }}</a> family:</h3>
+  <div class="codebase_family_list">
+  {%for codebase in family.items %}<div><a href="{{codebase.url}}">{{codebase.title}}</a></div>{% endfor %}
+  </div>
 {% endfor %}
 </div>
 
