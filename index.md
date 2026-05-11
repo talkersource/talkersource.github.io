@@ -26,6 +26,16 @@ homes on other servers, these, too, atrophied and few remain to date. Understand
 go offline so does their customized source code.  By 2010, nearly all of the original distribution sources
 for the most popular Talker code bases (forks) had disappeared, lost to <q>the great bit bucket in the sky</q>.
 
+-----
+
+<p style="text-align: center;">
+  Visit the <a href="https://talkers.moopet.net/">Talker Database</a> to find talkers of the
+  past and some that are still running today!
+</p>
+
+-----
+
+
 ## Why TalkerSource.com?
 
 {% assign about_us = site.info | where: "key", "about" | first %}
