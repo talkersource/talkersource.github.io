@@ -80,4 +80,6 @@ in the course of building the main archive content.
 [gh-issue-submission]: https://github.com/talkersource/talkersource.github.io/issues/new?assignees=wrprice&labels=&template=new-submission-to-archive.md&title=New+submission%3A+%5Bname+of+code+here%5D
 [gh-issue-plain]: https://github.com/talkersource/talkersource.github.io/issues/new
 
-<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="wrprice" data-color="#40DCA5" data-emoji=""  data-font="Bree" data-text="Donate a thank-you beverage" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
+-----
+
+<div style="text-align: center;"><script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="wrprice" data-color="#40DCA5" data-emoji=""  data-font="Bree" data-text="Donate a thank-you beverage" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script></div>
